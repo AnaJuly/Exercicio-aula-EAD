@@ -10,8 +10,13 @@ function Monitor extends React.Component {
     this.state = {polegada: "22p", cor:"rosa"};
   }
   render() {
-    return <h2>{this.state.polegada}</h2>;
-    return <h2> {this.state.cor}</h2>
+    return 
+    <h1> Exemplo com state </h1>
+    <h2>{this.state.polegada}</h2>
+    <h2> {this.state.cor}</h2>
+    <h1> Exemplo com props </h1>
+    <h2>{this.props.polegada}</h2>
+    <h2> {this.props.marca}</h2>
   }
 }
 export default Monitor;
